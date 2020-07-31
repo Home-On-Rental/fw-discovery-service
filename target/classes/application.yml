@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: fw-discovery-service
+server:
+  port: 8083
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
